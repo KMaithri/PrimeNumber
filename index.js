@@ -11,7 +11,7 @@ var birth = birthDay.split("/");
 var i = 2;
 var flag = 0;
 
-// ----------------------checks begin-----------------
+// ----------------------checks begin---------------
 // check if the birthday is not a number
 if (isNaN(birth[0]) || isNaN(birth[1])) {
   console.log("Error! Enter date in correct format, try again");
